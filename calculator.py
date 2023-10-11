@@ -1,3 +1,4 @@
+print("We can add, subtract, multiply and divide")
 sign = input("What do you want to do? +, -, /, or *: ")
 num1 = input("Enter a number: ")
 num2 = input("Enter a second number: ")
@@ -6,7 +7,7 @@ if sign == "+":
 if sign == "-":
     result = float(num1) - float(num2)
 if sign == "*":
-    result = float(num1) *  float(num2)
+    result = float(num1) * float(num2)
 if sign == "/":
     result = float(num1) / float(num2)
 
