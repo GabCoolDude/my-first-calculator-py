@@ -12,4 +12,4 @@ if sign == "*":
 if sign == "/":
     result = int(num1) / int(num2)
 
-print(result)
+print(int(result))
