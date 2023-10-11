@@ -1,4 +1,3 @@
-
 sign = input("What do you want to do? +, -, /, or *: ")
 num1 = input("Enter a number: ")
 num2 = input("Enter a second number: ")
