@@ -11,7 +11,7 @@ match sign:
   case "*":
     ...
   case _:
-    print("You didn't enter a sign, please press enter two times")
+    print("You didn't enter a sign, please press enter two times and restart")
 
 num1 = input("Enter a number: ")
 num2 = input("Enter a second number: ")
