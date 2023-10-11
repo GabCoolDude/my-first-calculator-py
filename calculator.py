@@ -4,6 +4,7 @@ while sign != "+" "-" "/" "*":
     correct_input = input("Please enter a correct sign : ")
     if correct_input == "+" "-" "/" "*":
         break
+
 num1 = input("Enter a number: ")
 num2 = input("Enter a second number: ")
 if sign == "+":
