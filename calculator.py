@@ -1,7 +1,7 @@
 print("We can add, subtract, multiply and divide")
 sign = input("What do you want to do? +, -, /, or *: ")
 
-match (sign):
+match sign:
   case "+":
     ...
   case "-":
@@ -20,7 +20,7 @@ if sign == "+":
 if sign == "-":
     result = float(num1) - float(num2)
 if sign == "*":
-    result = float(num1) *  float(num2)
+    result = float(num1) * float(num2)
 if sign == "/":
     result = float(num1) / float(num2)
 
