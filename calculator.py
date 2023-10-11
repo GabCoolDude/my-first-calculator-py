@@ -1,4 +1,3 @@
-from math import *
 
 sign = input("What do you want to do? +, -, /, or *: ")
 num1 = input("Enter a number: ")
