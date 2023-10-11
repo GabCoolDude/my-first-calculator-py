@@ -1,7 +1,17 @@
 print("We can add, subtract, multiply and divide")
 sign = input("What do you want to do? +, -, /, or *: ")
-while sign != "+" "-" "/" "*":
-    sign = input("Please enter a correct sign : ")
+
+match (sign):
+  case "+":
+    ...
+  case "-":
+    ...
+  case "/":
+    ...
+  case "*":
+    ...
+  case _:
+    print("you fucked up")
 
 num1 = input("Enter a number: ")
 num2 = input("Enter a second number: ")
