@@ -1,4 +1,4 @@
-print("We can do addition, substraction, multiplication and dividing")
+print("We can add, subtract, multiply and divide")
 sign = input("What do you want to do? +, -, /, or *: ")
 while sign != "+" "-" "/" "*":
     correct_input = input("Please enter a correct sign : ")
