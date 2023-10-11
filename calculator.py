@@ -7,5 +7,9 @@ if sign == "+":
     result = int(num1) + int(num2)
 if sign == "-":
     result = int(num1) - int(num2)
+if sign == "*":
+    result = int(num1) *  int(num2)
+if sign == "/":
+    result = int(num1) / int(num2)
 
 print(result)
