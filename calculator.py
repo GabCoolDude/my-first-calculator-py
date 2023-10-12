@@ -1,5 +1,4 @@
 print("We can add, subtract, multiply and divide")
-
 sign = input("What do you want to do? +, -, /, or *: ")
 
 match sign:
